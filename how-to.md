@@ -31,14 +31,15 @@
 
 1. Once you've switched to your challenge's branch (see instructions above), then navigate to the `challenges` folder of the project, and open the file that's titled with your challenge's number and name (for example `challenges/01-reverse-a-string.html`) in your favorite text editor.
 1. In the first few lines of the HTML file, you'll find some embedded JavaScript and some comments that say `// This section is where you'll code the function. ----------`. Add your code in the `//COMMENT HERE` block. See the example below:
-```js
-// This section is where you'll code the function. ----------
-function reverseString(str) {
-  // ENTER YOUR CODE HERE
-  return str;
-}
-// end code -------------------------------------------------
- ```
+
+  ```js
+  // This section is where you'll code the function. ----------
+  function reverseString(str) {
+    // ENTER YOUR CODE HERE
+    return str;
+  }
+  // end code -------------------------------------------------
+   ```
 1. You can test your own code by opening the same file in a web browser (like FireFox, Chrome, or Safari). You can add tests or change the tests around to try different cases, but please don't commit your tests to the branch so that another student can fulfill their test requirements.
 1. Commit your code to your branch (without committing the tests).
 1. Push your changes up to GitHub so that others can see what you've done and work on the same challenge as you. Remember, you're collaborating, so if someone else has signed up to work on the same task with you, you should reach out to them on Gitter or via the Pull Request.
@@ -47,15 +48,17 @@ function reverseString(str) {
 
 1. Once you've switched to your challenge's branch (see instructions above), then navigate to the `challenges` folder of the project, and open the file that's titled with your challenge's number and name (for example `challenges/01-reverse-a-string.html`) in your favorite text editor.
 1. In the HTML file, around line 11, you'll find some JavaScript and some comments that say `// This section is where you'll write your tests -----------`. One test is already written for you, you must write at least 3 other tests in this section:
-```js
-// This section is where you'll write your tests -----------
-// Duplicate line 11 and change the specifics for each test
-document.write( reverseString("hello") )
-// YOUR TEST 1 GOES HERE
-// YOUR TEST 2 GOES HERE
-// YOUR TEST 3 GOES HERE
-// end test -------------------------------------------------
-```
+
+  ```js
+  // This section is where you'll write your tests -----------
+  // Duplicate line 11 and change the specifics for each test
+  document.write( reverseString("hello") )
+  // YOUR TEST 1 GOES HERE
+  // YOUR TEST 2 GOES HERE
+  // YOUR TEST 3 GOES HERE
+  // end test -------------------------------------------------
+  ```
+
 1. Commit your code to your branch.
 1. Push your changes up to GitHub so that others can see what you've done and work on the same challenge as you. Remember, you're collaborating, so if someone else has signed up to work on the same task with you, you should reach out to them on Gitter or via the Pull Request.
 
@@ -64,12 +67,13 @@ document.write( reverseString("hello") )
 1. Once you've switched to your challenge's branch (see instructions above), then navigate to the `challenges` folder of the project, and open the file that's titled with your challenge's number and name (for example `challenges/01-reverse-a-string.html`) in your favorite text editor.
 1. The file will contain two sections: one for the solution, and one for tests. Add comments that document how either of these two things are coded (by definition, you cannot comment on a task that hasn't been completed).
 1. Remember that you can write comments in two ways in JavaScript. A line comment `//can be written like this` and a multi-line comment:
-```js
-/* can be
-   written like
-   *** this *
-*/
-```
+
+  ```js
+  /* can be
+     written like
+     *** this *
+  */
+  ```
 1. Commit your code to your branch.
 1. Push your changes up to GitHub so that others can see what you've done and work on the same challenge as you. Remember, you're collaborating, so if someone else has signed up to work on the same task with you, you should reach out to them on Gitter or via the Pull Request.
 
