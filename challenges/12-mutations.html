@@ -1,13 +1,25 @@
 <script type="text/javascript">
 // This section is where you'll code the function. ----------
 function mutation(arr) {
-  // ENTER YOUR CODE HERE
-  return arr;
+  var test = arr[0].toLowerCase().split('');
+    var compare = arr[1].toLowerCase().split('');      
+    for(var i = 0; i < compare.length; i++){
+        if(test.indexOf(compare[i]) < 0){
+            return false;
+        }        
+    }    
+  return true;
+}//end function
+mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]);
+
 }
 // end code -------------------------------------------------
 
 // This section is where you'll write your tests -----------
 // Duplicate line 11 and change the specifics for each test
-document.write( mutation(["Mary", "Aarmy"]) );
+document.write( mutation(["Mary", "Aarmy"]) )
+// (mutation(["Alien", "line"]))
+// (mutation(["floor", "for"]))
+// mutation(["hello", "neo"]))
 // end test -------------------------------------------------
 </script>
