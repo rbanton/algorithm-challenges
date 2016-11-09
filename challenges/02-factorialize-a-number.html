@@ -2,7 +2,12 @@
 // This section is where you'll code the function. ----------
 function factorialize(num) {
   // ENTER YOUR CODE HERE
-  return num;
+  var result = 1
+  for(var i=0; i < num; i++){
+  var num2=num-i;
+  result=result*num2;
+  }
+  return result;
 }
 // end code -------------------------------------------------
 
