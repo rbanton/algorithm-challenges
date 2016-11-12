@@ -1,8 +1,8 @@
 <script type="text/javascript">
 // This section is where you'll code the function. ----------
 function palindrome(str) {
-  // ENTER YOUR CODE HERE
-  return true;
+  return str.replace(/[\W_]/g, '').toLowerCase() ===
+        str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
 }
 // end code -------------------------------------------------
 
