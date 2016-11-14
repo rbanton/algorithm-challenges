@@ -1,13 +1,26 @@
 <script type="text/javascript">
 // This section is where you'll code the function. ----------
 function rot13(str) {
-  // ENTER YOUR CODE HERE
-  return str;
+ var alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+ return str=str.split("").map.call(str,function(char){
+   x=char.charCodeAt(0);
+   if(x<65||x>90){
+     return String.fromCharCode(x);
+   }
+   if(x<78){
+     return String.fromCharCode(x+13);
+   }
+   else {
+     return String.fromCharCode(x-13);
+   }
+
+ }).join('');
+
 }
 // end code -------------------------------------------------
 
 // This section is where you'll write your tests -----------
 // Duplicate line 11 and change the specifics for each test
-document.write( rot13("SERR PBQR PNZC") );
+rot13("SERR PBQR PNZC");
 // end test -------------------------------------------------
 </script>
