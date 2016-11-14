@@ -2,7 +2,12 @@
 // This section is where you'll code the function. ----------
 function repeatStringNumTimes(str, num) {
   // ENTER YOUR CODE HERE
+  if(num < 0)
+    return "";
+  if (num===1)
   return str;
+  else
+    return str+repeatStringNumTimes(str, num - 1);
 }
 // end code -------------------------------------------------
 
