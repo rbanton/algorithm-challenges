@@ -1,8 +1,16 @@
 <script type="text/javascript">
 // This section is where you'll code the function. ----------
 function largestOfFour(arr) {
-  // ENTER YOUR CODE HERE
-  return arr;
+  var big = [0,0,0,0];
+  for (var i=0; i < arr.length; i++)
+    {
+      for (var j=0; j < arr[i].length; j++) {
+        if (arr[i][j] > big[i]) {
+          big[i] = arr[i][j];
+        }
+      }
+    }
+  return big;
 }
 // end code -------------------------------------------------
 
