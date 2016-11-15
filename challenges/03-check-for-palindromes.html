@@ -1,8 +1,15 @@
 <script type="text/javascript">
 // This section is where you'll code the function. ----------
 function palindrome(str) {
-  return str.replace(/[\W_]/g, '').toLowerCase() ===
-        str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
+  return str.replace(/[\W_]/g, '').toLowerCase() ===/* The first string replaces
+  the characters listed in /[\W_]/g with '' so it removes those characters.
+  The entire string is lower cased to make it consistent.*/
+          str.replace(/[\W_]/g, '').toLowerCase().split('').reverse().join('');
+/*  This second string goes through the same process as the first, but it is
+also split up into individual strings, reversed and joined back together.
+This "===" will compare the first string with the reversed string
+ and determine whether the test string is a palindrome as true or false */
+
 }
 // end code -------------------------------------------------
 
