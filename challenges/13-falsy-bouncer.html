@@ -2,7 +2,13 @@
 // This section is where you'll code the function. ----------
 function bouncer(arr) {
   // ENTER YOUR CODE HERE
-  return arr;
+  function falseValue(value){
+  if (value){
+    return value;
+  }
+ }
+ var newArray = arr.filter(falseValue);
+  return newArray;
 }
 // end code -------------------------------------------------
 
